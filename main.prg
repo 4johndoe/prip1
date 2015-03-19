@@ -8,7 +8,7 @@ SET SAFETY OFF
 SET MULTILOCKS ON
 SET DELETED ON
 SET CARRY OFF
-SET DEFAULT TO "C:\Users\bogdan\Documents\Visual Foxpro Projects\"
+SET DEFAULT TO "C:\Users\bogdan\Documents\Visual Foxpro Projects\prip1"
 WAIT WINDOW "Press any key"
 ?"run opendata"
 DO "opendata.prg"

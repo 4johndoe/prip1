@@ -1,6 +1,6 @@
 **
 PROCEDURE OpenData
- dirlocal = "LOCAL\"
+ dirlocal = "..\LOCAL\"
  SELECT 0
  USE SHARED (dirlocal+"Struct.DBF")
  = CURSORSETPROP("Buffering", 2)
@@ -16,7 +16,7 @@ PROCEDURE OpenData
  SELECT 0
  USE SHARED (dirlocal+"Setting.DBF")
  = CURSORSETPROP("Buffering", 2)
- dirdata = ALLTRIM(αδ)
+ dirdata = "..\DATA\"
  LOCAL nerror
  nerror = 0
  ON ERROR nerror = 1
